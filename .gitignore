@@ -1,12 +1,21 @@
-# OBLIGATORIO
+# Node modules
 node_modules/
 **/node_modules/
 
-# OBLIGATORIO si tienes archivo .env
+# Variables de entorno
 .env
 **/.env
 
-# OPCIONAL
+# Archivos comprimidos
 *.rar
 *.zip
+
+# Archivos del sistema
 .DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+**/dist/
+**/build/
