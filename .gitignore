@@ -1,0 +1,12 @@
+# OBLIGATORIO
+node_modules/
+**/node_modules/
+
+# OBLIGATORIO si tienes archivo .env
+.env
+**/.env
+
+# OPCIONAL
+*.rar
+*.zip
+.DS_Store
